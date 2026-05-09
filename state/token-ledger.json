@@ -1,0 +1,12 @@
+[
+  {
+    "date": "2026-05-09",
+    "haiku_input": 0,
+    "haiku_output": 0,
+    "sonnet_input": 1500,
+    "sonnet_output": 3000,
+    "estimated_cost_usd": 0.0495,
+    "posts": 5,
+    "note": "day-1 setup run \u2014 single-model draft+polish"
+  }
+]

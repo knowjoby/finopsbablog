@@ -1,0 +1,42 @@
+[
+  {
+    "date": "2026-05-09",
+    "title": "What Is a Cloud Invoice Actually Made Of",
+    "category": "explainers",
+    "slug": "2026-05-09-what-is-a-cloud-invoice-actually-made-of",
+    "topic_id": "exp-001",
+    "word_count": 491
+  },
+  {
+    "date": "2026-05-09",
+    "title": "Reserved vs On-Demand Pricing for POs",
+    "category": "explainers",
+    "slug": "2026-05-09-reserved-vs-on-demand-pricing-for-pos",
+    "topic_id": "exp-002",
+    "word_count": 462
+  },
+  {
+    "date": "2026-05-09",
+    "title": "How a SaaS Company Cut $400k by Killing One Zombie Workload",
+    "category": "case-studies",
+    "slug": "2026-05-09-how-a-saas-company-cut-400k-by-killing-one-zombie-workload",
+    "topic_id": "cs-001",
+    "word_count": 507
+  },
+  {
+    "date": "2026-05-09",
+    "title": "The Snowflake Credit Overrun Nobody Saw Coming",
+    "category": "case-studies",
+    "slug": "2026-05-09-the-snowflake-credit-overrun-nobody-saw-coming",
+    "topic_id": "cs-002",
+    "word_count": 491
+  },
+  {
+    "date": "2026-05-09",
+    "title": "Why Native AWS Cost Explorer Isn't Enough at Scale",
+    "category": "tool-reviews",
+    "slug": "2026-05-09-why-native-aws-cost-explorer-isnt-enough-at-scale",
+    "topic_id": "tr-002",
+    "word_count": 507
+  }
+]

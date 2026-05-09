@@ -1,0 +1,212 @@
+[
+  {
+    "id": "exp-001",
+    "title": "What is a cloud invoice actually made of",
+    "category": "explainers",
+    "angle": "Decode each section of an AWS/Azure bill \u2014 line items, usage types, blended vs unblended cost \u2014 so a PO can stop outsourcing invoice literacy to finance",
+    "status": "published"
+  },
+  {
+    "id": "exp-002",
+    "title": "Reserved vs On-demand pricing for POs",
+    "category": "explainers",
+    "angle": "Translate the commitment vs flexibility tradeoff into product planning language: when should a PO push for reservations, and when is on-demand the right call",
+    "status": "published"
+  },
+  {
+    "id": "exp-003",
+    "title": "The hidden cost of egress",
+    "category": "explainers",
+    "angle": "Why data-out charges blindside teams, how to spot egress in your bill, and what architectural choices POs can influence to reduce it",
+    "status": "pending"
+  },
+  {
+    "id": "exp-004",
+    "title": "What commitment-based discounts really mean",
+    "category": "explainers",
+    "angle": "Savings Plans, Reserved Instances, CUDs \u2014 explained as a PO negotiation: you're promising future spend in exchange for a lower rate today",
+    "status": "pending"
+  },
+  {
+    "id": "exp-005",
+    "title": "Why your AWS bill has 47 line items",
+    "category": "explainers",
+    "angle": "Walk through the anatomy of a real-looking AWS bill, explain why granularity exists, and show how to group and filter to find what actually matters",
+    "status": "pending"
+  },
+  {
+    "id": "exp-006",
+    "title": "Tagging strategies that survive contact with reality",
+    "category": "explainers",
+    "angle": "Most tagging policies fail in month two. Explain why, and walk through a minimal viable tagging schema a PO can champion and actually enforce",
+    "status": "pending"
+  },
+  {
+    "id": "exp-007",
+    "title": "Showback vs Chargeback",
+    "category": "explainers",
+    "angle": "The organizational and cultural difference between showing teams their cloud costs vs billing them for it \u2014 and how a PO fits into that decision",
+    "status": "pending"
+  },
+  {
+    "id": "exp-008",
+    "title": "Unit economics for cloud-native products",
+    "category": "explainers",
+    "angle": "How to measure cost-per-transaction, cost-per-user, or cost-per-feature \u2014 and why this metric matters more than total cloud spend for a PO",
+    "status": "pending"
+  },
+  {
+    "id": "exp-009",
+    "title": "The FinOps lifecycle in plain English",
+    "category": "explainers",
+    "angle": "Inform, Optimize, Operate \u2014 what each phase means on the ground, who does what, and where a PO's influence is highest in each phase",
+    "status": "pending"
+  },
+  {
+    "id": "exp-010",
+    "title": "What a rate card is and why finance keeps asking about it",
+    "category": "explainers",
+    "angle": "Explain the concept of a cloud rate card, how it's used in chargeback and budgeting, and why POs benefit from understanding the numbers behind it",
+    "status": "pending"
+  },
+  {
+    "id": "cs-001",
+    "title": "How a SaaS company cut $400k by killing one zombie workload",
+    "category": "case-studies",
+    "angle": "The story of an EC2 instance running since 2019 that nobody owned \u2014 detection, attribution, decommission, and the process that prevents recurrence",
+    "status": "published"
+  },
+  {
+    "id": "cs-002",
+    "title": "The Snowflake credit overrun nobody saw coming",
+    "category": "case-studies",
+    "angle": "A mid-size data team's Snowflake costs doubled in one sprint cycle because of one untuned query. Walk through the detection, the fix, and the guardrails",
+    "status": "published"
+  },
+  {
+    "id": "cs-003",
+    "title": "When Reserved Instances became a liability",
+    "category": "case-studies",
+    "angle": "A product pivot meant the workload the RI was bought for no longer existed \u2014 three years of commitment, the sell-back market, and what the PO could have done earlier",
+    "status": "pending"
+  },
+  {
+    "id": "cs-004",
+    "title": "A migration that doubled the bill (and the fix)",
+    "category": "case-studies",
+    "angle": "Lift-and-shift from on-prem doubled costs because the team ported over over-provisioned VMs. The diagnosis, rightsizing, and what PO sign-off should have caught",
+    "status": "pending"
+  },
+  {
+    "id": "cs-005",
+    "title": "The $50k log ingestion mistake",
+    "category": "case-studies",
+    "angle": "A debug logging flag left on in production sent costs to the moon. Trace the root cause, the cost spike, and how a simple feature flag review would have prevented it",
+    "status": "pending"
+  },
+  {
+    "id": "cs-006",
+    "title": "Multi-cloud billing reconciliation horror story",
+    "category": "case-studies",
+    "angle": "A team split across AWS and Azure with no unified tagging or cost allocation. The mess it created, the reconciliation effort, and the tooling that finally tamed it",
+    "status": "pending"
+  },
+  {
+    "id": "tr-001",
+    "title": "CloudHealth vs Apptio Cloudability for mid-market",
+    "category": "tool-reviews",
+    "angle": "Head-to-head for teams between 100-500 cloud accounts: feature parity, UX, integrations, pricing model, and which kind of organization each suits best",
+    "status": "pending"
+  },
+  {
+    "id": "tr-002",
+    "title": "Why native AWS Cost Explorer isn't enough at scale",
+    "category": "tool-reviews",
+    "angle": "Honest take on what Cost Explorer does well (free, integrated, fast) and where it fails at scale \u2014 multi-account, custom allocation, anomaly detection limitations",
+    "status": "published"
+  },
+  {
+    "id": "tr-003",
+    "title": "Vantage vs CloudZero for engineering-led FinOps",
+    "category": "tool-reviews",
+    "angle": "Both position as developer-friendly. Compare actual UX for engineers, business unit allocation depth, and how each handles Kubernetes cost allocation",
+    "status": "pending"
+  },
+  {
+    "id": "tr-004",
+    "title": "Kubecost for K8s cost allocation",
+    "category": "tool-reviews",
+    "angle": "How Kubecost works, what it costs, and whether it's necessary if you're already using a platform-level FinOps tool \u2014 PO perspective on the buy vs build tradeoff",
+    "status": "pending"
+  },
+  {
+    "id": "tr-005",
+    "title": "Spot.io for automated commitment management",
+    "category": "tool-reviews",
+    "angle": "What Spot does (EC2 Spot + commitment automation), real savings claims vs reality, and the operational risk a PO needs to weigh before approving it",
+    "status": "pending"
+  },
+  {
+    "id": "tr-006",
+    "title": "OpenCost \u2014 the open source play",
+    "category": "tool-reviews",
+    "angle": "OpenCost as the CNCF alternative to paid K8s cost tools \u2014 what it covers, what it doesn't, and whether the self-hosting overhead is worth it for a mid-size team",
+    "status": "pending"
+  },
+  {
+    "id": "exp-011",
+    "title": "What a FinOps team actually does day-to-day",
+    "category": "explainers",
+    "angle": "Demystify the FinOps practitioner role: what they look at each morning, what decisions they escalate, and how a PO can be a better partner to them",
+    "status": "pending"
+  },
+  {
+    "id": "exp-012",
+    "title": "Cloud budgets vs cloud forecasts \u2014 they are not the same thing",
+    "category": "explainers",
+    "angle": "Budget is a commitment; forecast is a prediction. Most teams conflate them. Explain the difference and why POs need to care about both",
+    "status": "pending"
+  },
+  {
+    "id": "exp-013",
+    "title": "Anomaly detection in cloud spend \u2014 how it works",
+    "category": "explainers",
+    "angle": "How AWS/Azure/GCP anomaly alerts work, why they generate false positives, and how a PO can tune alerts so they're signal, not noise",
+    "status": "pending"
+  },
+  {
+    "id": "cs-007",
+    "title": "How one team reduced their S3 costs by 60% without changing any code",
+    "category": "case-studies",
+    "angle": "Storage lifecycle policies, Intelligent-Tiering, and cleaning up orphaned snapshots \u2014 a practical story a PO can take to their platform team",
+    "status": "pending"
+  },
+  {
+    "id": "cs-008",
+    "title": "The dev environment that cost more than production",
+    "category": "case-studies",
+    "angle": "A common story: dev/test environments running 24/7 with no scheduled shutdowns. Cost breakdown, cultural fix, and the scheduling automation that saved $12k/month",
+    "status": "pending"
+  },
+  {
+    "id": "tr-007",
+    "title": "FOCUS \u2014 the new cloud billing standard every PO should know",
+    "category": "tool-reviews",
+    "angle": "FinOps Open Cost and Usage Specification \u2014 what it is, which clouds support it, and why a common billing format matters for multi-cloud teams and invoice intelligence",
+    "status": "pending"
+  },
+  {
+    "id": "exp-014",
+    "title": "What 'idle resources' means and how to find them",
+    "category": "explainers",
+    "angle": "Define idle: underutilized EC2, unattached EBS volumes, unused load balancers. How to find them, who owns them, and how a PO can drive the cleanup conversation",
+    "status": "pending"
+  },
+  {
+    "id": "cs-009",
+    "title": "When a vendor discount backfired",
+    "category": "case-studies",
+    "angle": "A team took a large Azure MACC commitment to get a discount, then pivoted to GCP mid-year. The contractual trap, the exit cost, and the negotiation lessons",
+    "status": "pending"
+  }
+]

@@ -1,0 +1,34 @@
+title: "FinOps for POs"
+description: "Cloud cost management and invoice intelligence — explained for Product Owners."
+baseurl: ""
+url: "https://knowjoby.github.io"
+author:
+  name: "Joby John"
+  email: "blogspace1989@gmail.com"
+
+theme: minima
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+permalink: /:categories/:year/:month/:day/:title/
+
+minima:
+  skin: classic
+  date_format: "%B %-d, %Y"
+  social_links:
+    - { platform: github, user_url: "https://github.com/knowjoby" }
+
+# Feed
+feed:
+  posts_limit: 20
+
+# Exclude from build
+exclude:
+  - state/
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - .setup-complete
+  - run-daily.sh
