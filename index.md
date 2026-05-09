@@ -1,16 +1,14 @@
 ---
-layout: home
+layout: default
 title: FinOps for POs
 ---
-
-Welcome to **FinOps for POs** — plain-language writing about cloud cost management and invoice intelligence, from a Product Owner's perspective.
-
-No consultant-speak. No vanity metrics. Just what you actually need to know when you own a product that runs on cloud infrastructure.
-
----
-
-### Browse by category
-
-- [Explainers](/categories/explainers/) — core FinOps concepts, decoded
-- [Case Studies](/categories/case-studies/) — real scenarios, real lessons
-- [Tool Reviews](/categories/tool-reviews/) — honest takes on the FinOps toolchain
+<h1>FinOps for POs</h1>
+<p>Plain-language writing on cloud cost management and invoice intelligence, from a Product Owner at EY.</p>
+<p>[ <a href="/about/">About</a> ]</p>
+<hr>
+<h2>All Posts</h2>
+<ul>
+{% for post in site.posts %}
+<li><a href="{{ post.url }}">{{ post.title }}</a> &mdash; {{ post.date | date: "%Y-%m-%d" }} ({{ post.categories | join: ", " }})</li>
+{% endfor %}
+</ul>
