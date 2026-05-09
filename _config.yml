@@ -7,6 +7,7 @@ author:
   email: "blogspace1989@gmail.com"
 
 theme: minima
+future: true
 
 plugins:
   - jekyll-feed
@@ -17,14 +18,10 @@ permalink: /:categories/:year/:month/:day/:title/
 minima:
   skin: classic
   date_format: "%B %-d, %Y"
-  social_links:
-    - { platform: github, user_url: "https://github.com/knowjoby" }
 
-# Feed
 feed:
   posts_limit: 20
 
-# Exclude from build
 exclude:
   - state/
   - Gemfile
@@ -32,3 +29,4 @@ exclude:
   - README.md
   - .setup-complete
   - run-daily.sh
+  - _drafts/
